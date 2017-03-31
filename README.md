@@ -16,5 +16,9 @@ docker-compose to easily manage container configurations.
 
 To stop the container, use the `./stop` script.
 
+## Data
+This Docker container creates the `./data` directory, in which the database data is stored.
+Removing this directory will empty the database.
+
 ## License
 This project is released under the GNU GPL-3.0 license. Check out the [LICENSE](LICENSE) file for more information.
